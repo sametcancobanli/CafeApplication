@@ -1,9 +1,9 @@
 package com.foreks.cafe.bootstrap;
 
 import com.foreks.cafe.configuration.SupplementConfiguration;
-import com.foreks.cafe.temp_item.BaseItemRepository;
-import com.foreks.cafe.temp_supplement.BaseSupplement;
-import com.foreks.cafe.temp_supplement.BaseSupplementRepository;
+import com.foreks.cafe.repository.BaseItemRepository;
+import com.foreks.cafe.domain.BaseSupplement;
+import com.foreks.cafe.repository.BaseSupplementRepository;
 import org.springframework.stereotype.Component;
 
 @Component

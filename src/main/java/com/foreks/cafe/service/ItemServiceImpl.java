@@ -3,8 +3,8 @@ package com.foreks.cafe.service;
 import com.foreks.cafe.domain.Item;
 import com.foreks.cafe.repository.CartRepository;
 import com.foreks.cafe.repository.ItemRepository;
-import com.foreks.cafe.temp_item.BaseItem;
-import com.foreks.cafe.temp_item.BaseItemRepository;
+import com.foreks.cafe.domain.BaseItem;
+import com.foreks.cafe.repository.BaseItemRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -2,8 +2,8 @@ package com.foreks.cafe.service;
 
 import com.foreks.cafe.domain.Supplement;
 import com.foreks.cafe.repository.SupplementRepository;
-import com.foreks.cafe.temp_supplement.BaseSupplement;
-import com.foreks.cafe.temp_supplement.BaseSupplementRepository;
+import com.foreks.cafe.domain.BaseSupplement;
+import com.foreks.cafe.repository.BaseSupplementRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

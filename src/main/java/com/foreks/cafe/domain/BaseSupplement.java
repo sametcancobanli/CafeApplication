@@ -1,4 +1,5 @@
-package com.foreks.cafe.temp_item;
+package com.foreks.cafe.domain;
+
 
 import lombok.*;
 
@@ -9,15 +10,13 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name= "Temp_items")
+@Table(name= "BaseSupplements")
 @Builder
-public class BaseItem {
+public class BaseSupplement {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private Double cost;
-
-
 }

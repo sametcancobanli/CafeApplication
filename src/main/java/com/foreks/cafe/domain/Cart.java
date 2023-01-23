@@ -49,13 +49,14 @@ public class Cart{
     }
 
     private Double discount() {
+
         if(totalCost >= 36){
 
             var priceOne = totalCost * (0.25);
             var priceTwo = 0.0;
 
             if(totalItem >= 3){
-                for (Item item : getItems()) {
+                for (Item item : items) {
                     priceTwo = Math.min(priceOne, item.getTotalCost());
                 }
                 return Math.max(priceOne, priceTwo);
@@ -63,10 +64,10 @@ public class Cart{
 
             return priceOne;
 
-        }else if (totalCost < 36 || totalItem >= 3) {
+        }else if (totalCost < 36 && totalItem >= 3) {
 
             var minItem = Double.MAX_VALUE;
-            for (Item item : getItems()) {
+            for (Item item : items) {
                 minItem = Math.min(minItem, item.getTotalCost());
             }
             return minItem;

@@ -2,8 +2,8 @@ package com.foreks.cafe;
 
 import com.foreks.cafe.bootstrap.ItemInitializer;
 import com.foreks.cafe.bootstrap.SupplementInitializer;
-import com.foreks.cafe.temp_item.BaseItemRepository;
-import com.foreks.cafe.temp_supplement.BaseSupplementRepository;
+import com.foreks.cafe.repository.BaseItemRepository;
+import com.foreks.cafe.repository.BaseSupplementRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
