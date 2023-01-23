@@ -1,0 +1,26 @@
+beverage:
+  name:
+    coffee: Coffee
+    latte: Latte
+    mocha: Mocha
+    tea: Tea
+
+  price:
+    coffee: 12
+    latte: 15
+    mocha: 18
+    tea: 9
+
+supplement:
+  name:
+    milk: Milk
+    hazelnut: Hazelnut
+    chocolate: Chocolate
+    lemon: Lemon
+
+  price:
+    milk: 6
+    hazelnut: 9
+    chocolate: 15
+    lemon: 6
+

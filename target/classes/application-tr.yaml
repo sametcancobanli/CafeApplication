@@ -1,0 +1,26 @@
+beverage:
+  name:
+    coffee: Kahve
+    latte: Latte
+    mocha: Moka
+    tea: �ay
+
+  price:
+    coffee: 12
+    latte: 15
+    mocha: 18
+    tea: 9
+
+supplement:
+  name:
+    milk: S�t
+    hazelnut: Findik
+    chocolate: Cikolata
+    lemon: Limon
+
+  price:
+    milk: 6
+    hazelnut: 9
+    chocolate: 15
+    lemon: 6
+
